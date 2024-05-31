@@ -5889,7 +5889,7 @@ Editableform based on Twitter Bootstrap 3
 				options = typeof option == 'object' && option;
 			if (!data) {
 				var elopts = opts_from_el(this, 'date'),
-					// Preliminary otions
+					// Preliminary options
 					xopts = $.extend({}, defaults, elopts, options),
 					locopts = opts_from_locale(xopts.language),
 					// Options priority: js args, data-attrs, locales, defaults
