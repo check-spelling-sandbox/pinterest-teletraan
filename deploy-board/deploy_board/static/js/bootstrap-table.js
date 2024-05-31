@@ -1269,7 +1269,7 @@
                             value = value[props[prop_index]];
                         }
 
-                        // Fix #142: respect searchForamtter boolean
+                        // Fix #142: respect searchFormatter boolean
                         if (column && column.searchFormatter) {
                             value = calculateObjectValue(column,
                                 that.header.formatters[j], [value, item, i], value);
