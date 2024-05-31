@@ -11137,7 +11137,7 @@
 			"oAria": {
 				/**
 				 * ARIA label that is added to the table headers when the column may be
-				 * sorted ascending by activing the column (click or return when focused).
+				 * sorted ascending by activating the column (click or return when focused).
 				 * Note that the column header is prefixed to this string.
 				 *  @type string
 				 *  @default : activate to sort column ascending
@@ -11160,7 +11160,7 @@
 	
 				/**
 				 * ARIA label that is added to the table headers when the column may be
-				 * sorted descending by activing the column (click or return when focused).
+				 * sorted descending by activating the column (click or return when focused).
 				 * Note that the column header is prefixed to this string.
 				 *  @type string
 				 *  @default : activate to sort column ascending
