@@ -639,7 +639,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
 }(window.jQuery));
 
 /**
-* EditableForm utilites
+* EditableForm utilities
 */
 (function ($) {
     "use strict";
