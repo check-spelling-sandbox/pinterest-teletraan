@@ -1570,7 +1570,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
                doAutotext = false;
             }
 
-            //depending on autotext run render() or just finilize init
+            //depending on autotext run render() or just finalize init
             $.when(doAutotext ? this.render() : true).then($.proxy(function() {
                 if(this.options.disabled) {
                     this.disable();
