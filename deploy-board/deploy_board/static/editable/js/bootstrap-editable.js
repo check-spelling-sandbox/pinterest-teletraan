@@ -3743,7 +3743,7 @@ $(function(){
         render: function() {
             this.setClass();
 
-            //can not apply select2 here as it calls initSelection 
+            //cannot apply select2 here as it calls initSelection 
             //over input that does not have correct value yet.
             //apply select2 only in value2input
             //this.$input.select2(this.options.select2);
@@ -3774,7 +3774,7 @@ $(function(){
            } else if(this.sourceData) {
               data = $.fn.editableutils.itemsByValue(value, this.sourceData, this.idFunc); 
            } else {
-              //can not get list of possible values 
+              //cannot get list of possible values 
               //(e.g. autotext for select2 with ajax source)
            }
 
