@@ -13786,7 +13786,7 @@
 		 * 
 		 * * `fnInit` - function that is used to initialise the plug-in,
 		 * * `cFeature` - a character so the feature can be enabled by the `dom`
-		 *   instillation option. This is case sensitive.
+		 *   instillation option. This is case-sensitive.
 		 *
 		 * The `fnInit` function has the following input parameters:
 		 *
