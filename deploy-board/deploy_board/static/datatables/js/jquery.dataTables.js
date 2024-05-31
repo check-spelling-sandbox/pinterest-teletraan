@@ -10481,7 +10481,7 @@
 		 * Enable or disable state saving. When enabled HTML5 `localStorage` will be
 		 * used to save table display information such as pagination information,
 		 * display length, filtering and sorting. As such when the end user reloads
-		 * the page the display display will match what thy had previously set up.
+		 * the page the display will match what thy had previously set up.
 		 *
 		 * Due to the use of `localStorage` the default state saving is not supported
 		 * in IE6 or 7. If state saving is required in those browsers, use
@@ -12283,7 +12283,7 @@
 		 *          "data": function ( source, type, val ) {
 		 *            if (type === 'set') {
 		 *              source.price = val;
-		 *              // Store the computed dislay and filter values for efficiency
+		 *              // Store the computed display and filter values for efficiency
 		 *              source.price_display = val=="" ? "" : "$"+numberFormat(val);
 		 *              source.price_filter  = val=="" ? "" : "$"+numberFormat(val)+" "+val;
 		 *              return;
