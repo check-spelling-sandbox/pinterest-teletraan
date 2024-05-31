@@ -384,7 +384,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
     Initialize editableform. Applied to jQuery object.
 
     @method $().editableform(options)
-    @params {Object} options
+    @param {Object} options
     @example
     var $form = $('&lt;div&gt;').editableform({
         type: 'text',
@@ -1300,7 +1300,7 @@ Applied as jQuery method.
     jQuery method to initialize editableContainer.
     
     @method $().editableContainer(options)
-    @params {Object} options
+    @param {Object} options
     @example
     $('#edit').editableContainer({
         type: 'text',
@@ -1957,7 +1957,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
     jQuery method to initialize editable element.
     
     @method $().editable(options)
-    @params {Object} options
+    @param {Object} options
     @example
     $('#username').editable({
         type: 'text',
