@@ -1078,7 +1078,7 @@ Applied as jQuery method.
         @method show()
         @param {boolean} closeAll Whether to close all other editable containers when showing this one. Default true.
         **/
-        /* Note: poshytip owerwrites this method totally! */          
+        /* Note: poshytip overwrites this method totally! */          
         show: function (closeAll) {
             this.$element.addClass('editable-open');
             if(closeAll !== false) {
