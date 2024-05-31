@@ -2817,7 +2817,7 @@ List - abstract class for inputs that have source option loaded from js array or
         /**
         Source data for list.  
         If **array** - it should be in format: `[{value: 1, text: "text1"}, {value: 2, text: "text2"}, ...]`  
-        For compability, object format is also supported: `{"1": "text1", "2": "text2" ...}` but it does not guarantee elements order.
+        For compatibility, object format is also supported: `{"1": "text1", "2": "text2" ...}` but it does not guarantee elements order.
         
         If **string** - considered ajax url to load items. In that case results will be cached for fields with the same source and name. See also `sourceCache` option.
           
