@@ -2782,7 +2782,7 @@ List - abstract class for inputs that have source option loaded from js array or
                             result.push(obj); 
                             //case: [{value: 1, text: 'text1'}, {value: 2, text: 'text2'}, ...]
                         } else if(count > 1) {
-                            //removed check of existance: item.hasOwnProperty('value') && item.hasOwnProperty('text')
+                            //removed check of existence: item.hasOwnProperty('value') && item.hasOwnProperty('text')
                             if(item.children) {
                                 item.children = this.makeArray(item.children);   
                             }
