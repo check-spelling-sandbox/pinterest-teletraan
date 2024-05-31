@@ -261,7 +261,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
                 }
 
                 //if success callback returns object like {newValue: <something>} --> use that value instead of submitted
-                //it is usefull if you want to change value in url-function
+                //it is useful if you want to change value in url-function
                 if(res && typeof res === 'object' && res.hasOwnProperty('newValue')) {
                     newValue = res.newValue;
                 }
@@ -529,7 +529,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
         validate: null,
         /**
         Success callback. Called when value successfully sent on server and **response status = 200**.  
-        Usefull to work with json response. For example, if your backend response can be <code>{success: true}</code>
+        Useful to work with json response. For example, if your backend response can be <code>{success: true}</code>
         or <code>{success: false, msg: "server error"}</code> you can check it inside this callback.  
         If it returns **string** - means error occurred and string is shown as error message.  
         If it returns **object like** <code>{newValue: &lt;something&gt;}</code> - it overwrites value, submitted by user.  
@@ -546,7 +546,7 @@ Editableform is linked with one of input types, e.g. 'text', 'select' etc.
         success: null,
         /**
         Error callback. Called when request failed (response status != 200).  
-        Usefull when you want to parse error response and display a custom message.
+        Useful when you want to parse error response and display a custom message.
         Must return **string** - the message to be displayed in the error block.
                 
         @property error 
@@ -2277,7 +2277,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
         unsavedclass: 'editable-unsaved',
         /**
         If selector is provided, editable will be delegated to the specified targets.  
-        Usefull for dynamically generated DOM elements.  
+        Useful for dynamically generated DOM elements.  
         **Please note**, that delegated targets can't be initialized with `emptytext` and `autotext` options, 
         as they actually become editable only after first click.  
         You should manually set class `editable-click` to these elements.  
@@ -2850,7 +2850,7 @@ List - abstract class for inputs that have source option loaded from js array or
         sourceError: 'Error when loading list',
         /**
         if <code>true</code> and source is **string url** - results will be cached for fields with the same source.    
-        Usefull for editable column in grid to prevent extra requests.
+        Useful for editable column in grid to prevent extra requests.
         
         @property sourceCache 
         @type boolean
