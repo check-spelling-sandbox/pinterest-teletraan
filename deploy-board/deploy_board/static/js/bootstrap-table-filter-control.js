@@ -632,7 +632,7 @@
 
         // if the searchText is the same as the previously selected column value,
         // bootstrapTable will not try searching again (even though the selected column
-        // may be different from the previous search).  As a work around
+        // may be different from the previous search).  As a workaround
         // we're manually appending some text to bootstrap's searchText field
         // to guarantee that it will perform a search again when we call this.onSearch(event)
         this.searchText += "randomText";
