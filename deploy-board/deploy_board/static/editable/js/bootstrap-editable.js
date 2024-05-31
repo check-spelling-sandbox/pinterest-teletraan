@@ -1422,7 +1422,7 @@ Applied as jQuery method.
             //container is <span> element
             this.$tip = $('<span></span>');
             
-            //convert anim to miliseconds (int)
+            //convert anim to milliseconds (int)
             if(!this.options.anim) {
                 this.options.anim = 0;
             }         
