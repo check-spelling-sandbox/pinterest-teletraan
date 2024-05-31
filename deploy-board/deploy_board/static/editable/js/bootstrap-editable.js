@@ -2763,7 +2763,7 @@ List - abstract class for inputs that have source option loaded from js array or
             if($.isArray(data)) { //array
                 /* 
                    function to iterate inside item of array if item is object.
-                   Caclulates count of keys in item and store in obj. 
+                   Calculates count of keys in item and store in obj. 
                 */
                 iterateItem = function (k, v) {
                     obj = {value: k, text: v};
