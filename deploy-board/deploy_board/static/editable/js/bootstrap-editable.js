@@ -3608,7 +3608,7 @@ To make it **bootstrap-styled** you can use css from [here](https://github.com/t
     <link href="select2-bootstrap.css" rel="stylesheet" type="text/css"></link>    
     
 **Note:** currently `autotext` feature does not work for select2 with `ajax` remote source.    
-You need initially put both `data-value` and element's text youself:    
+You need initially put both `data-value` and element's text yourself:    
 
     <a href="#" data-type="select2" data-value="1">Text1</a>
     
