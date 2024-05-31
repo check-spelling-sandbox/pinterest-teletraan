@@ -2517,7 +2517,7 @@ To create your own input you can inherit from this class.
         /**
         If `true` - html will be escaped in content of element via $.text() method.  
         If `false` - html will not be escaped, $.html() used.  
-        When you use own `display` function, this option obviosly has no effect.
+        When you use own `display` function, this option obviously has no effect.
         
         @property escape 
         @type boolean
